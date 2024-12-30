@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&display=swap');
+:root {
+    --main-color: rgb(235, 198, 10);
+    --second-color: red;
+}
+
+body {
+    font-family: cairo !important;
+    height: 2500px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.top-header {
+    background-color: var(--main-color);
+   
+}
+
+.left-header a { 
+    margin-left: 20px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+    transition: all 0.3s;
+}
+
+.left-header a:hover {
+    color: var(--second-color) !important;
+}
+.menu-icon {
+    border-radius: 3px !important;
+    box-shadow: none !important;
+}
+
+.nav-link {
+    font-weight: 600 !important;
+}
+
+.buttom-header {
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+
+/* categories */
+
+
+.categories {
+    margin-top: 50px;
+}
+
+.cat img {
+    transition: all 0.3s;
+}
+
+.cat:hover img {
+scale: 1.1;
+}
+
+
+.section-title {
+margin-bottom: 30px;
+font-family: almarai;
+font-weight: bold;
+
+}
+
+.products {
+    margin-top: 70px;
+}
+
+
+.product-info {
+    padding: 10px;
+     
+}
+
+.product-info h3 {
+    font-family: almarai;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.product-info p {
+    font-size: 14px;
+
+}
+
+.stars {
+    margin-bottom: 10px;
+
+}
+
+.stars i {
+    color: var(--main-color);
+    font-size: 20px;
+
+}
+
+.price :first-child {
+   color: var(--second-color);
+   margin-left: 20px;
+    font-weight: 600;
+}
+
+.price :last-child {
+    text-decoration: line-through;
+}
+
+.quick-icons {
+    position: absolute;
+    background-color: rgb(242  ,240, 240);
+    right: -45px;
+    top: 15px;
+    height: 150px;
+    width: 45px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quick-icons i {
+    font-size: 18px;
+
+}
+.product:hover .quick-icons {
+    right: 0;
+}
+
+
+.new-products {
+    background-color: #eee;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.btns-quantity button {
+border: 1px solid #eee;
+}
+
+.btns-quantity button:hover {
+    border: 1px solid #ccc;
+
+}
+
+.btns-quantity button:active {
+    border: 1px solid #ccc !important;
+
+
+}
+
+.add-btn button {
+font-size: 13px !important;
+}
+
+
+.mini-card {
+    background-color: #eee;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    
+
+}
+
+.mini-card img {
+    border-radius: 5px;
+
+}
+
+.btns-quantity-mini button {
+    background-color: white !important;
+    border: 1px solid #ccc ;
+}
+
+.row-min-card {
+    padding-bottom: 20px;
+    border-bottom: 2px dashed red;
+}
+
+.btns-quantity-mini button:hover {
+    border: 1px solid #ccc ;
+}
+
+
+/* .mini-login {
+    border: 1px dashed #ccc;
+padding: 10px;
+border-radius: 5px;
+} */
